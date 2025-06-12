@@ -111,7 +111,7 @@ justify-content: flex-end;
     
   /* padding-left: 550px; */
  display: flex;
-    justify-content: center; /* محاذاة أفقية في المنتصف */
+    justify-content: center;  
     align-items: center;
 
     text-align: left;
@@ -152,7 +152,7 @@ h1 {
   color: #000;
   font-size: 16px;
  display: flex;
-    justify-content: center; /* محاذاة أفقية في المنتصف */
+    justify-content: center; 
     align-items: left;
 left: 10px;;
 }
