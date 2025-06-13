@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroSection.css'
-
+import logo from '../../assets/images/logo.png';
 import image1 from '../../assets/images/11.webp';
 import image2 from '../../assets/images/22.webp';
 import image3 from '../../assets/images/33.webp';
@@ -13,15 +13,27 @@ export default function HeroSection() {
 
 
 <div className="hero-section">
-  
+  <div className="buy"> <button className="buy-now">Buy Now</button></div>
+      <nav className="nav">
+         <img src={logo} alt="logo" className="logo-img" />
+        <div className="logo">Blayden *</div>
+
+        
+        <ul className="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#demo">Demo</a></li>
+          <li><a href="#purchase">Purchase</a></li>
+        </ul>
+       {/* <div className="buy"> <button className="buy-now">Buy Now</button></div> */}
+      </nav>
       <div className="hero-content">
         
  
 
 
-        <span>
+        <h1>
           Make your work<br />stand out
-        </span>
+        </h1>
 
  </div>
 

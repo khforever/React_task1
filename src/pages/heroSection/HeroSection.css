@@ -32,6 +32,12 @@
   box-sizing: border-box;
 }
 
+
+
+
+
+
+
 .nav {
   display: flex;
   justify-content:flex-start;
@@ -120,7 +126,7 @@ padding-top: 100px;
 
 
 font-style: normal;
-font-weight: 300;
+font-weight: 400;
 font-size: 5.6rem;
 font-family: var(--_font-accent);
 
