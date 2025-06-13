@@ -1,4 +1,115 @@
-/* *{
 
-    color: blue;
-} */
+ 
+ *{
+
+ 
+
+  background-color: #babec8;
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+.footer{
+
+
+    height: 100vh;
+    width: 100%;
+position: relative;
+
+    color: black;
+  
+    text-align: center;
+    padding-top: 70px;
+
+ 
+}
+
+.purchase{
+
+ background-color: #babec8;
+ border-radius: 20px;
+
+ padding: 10px;
+border-color:black ;
+}
+
+.purchase-container
+
+{
+
+    border-width: 20px;
+     border: 70px;
+ border-radius: 20px;
+padding-top: 50px;;
+ background-color: #babec8;
+}
+
+
+
+
+
+
+
+
+
+  .decoration {
+  position: absolute;
+ 
+  width: 150px;
+  height: 150px;
+}
+
+.left {
+  /* top: 10%; */
+  left: 0;
+}
+
+.right {
+  /* top: 5%; */
+  right: 0;
+}
+
+ 
+.left-rock {
+  width: 250px;
+  height: 250px;
+  background: url('../../assets/images/2.webp') no-repeat center center/cover;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+  left: 0;
+   float: left;
+/* position: relative; */
+    /* left: -30%; */
+
+/* padding-top: 100px; */
+     /* clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%); */
+
+}
+
+.right-rock {
+ width: 150px;
+  height: 350px;
+  background: url('../../assets/images/1.webp') no-repeat center center/cover;  
+  position: absolute;
+  z-index: 0;
+  /* float: right; */
+  opacity: 0.5;
+  /* right:-30%; */
+
+
+     /* clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%); */
+
+}
+
+ 
+
+ 
