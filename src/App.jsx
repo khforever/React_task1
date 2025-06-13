@@ -7,14 +7,36 @@ function App() {
   
 
   return (
-    <>
-   <Header/>
 
-<HeroSection/>
+
+
+
+ <>
+      <Header />
+     
+      <HeroSection/>
 
    <Footer/>
-
+     
     </>
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+  
+
+
+ 
+   
   )
 }
 

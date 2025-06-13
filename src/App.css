@@ -8,3 +8,8 @@
 
 
 } */
+
+
+.app-container {
+  min-height: 100vh; /* Ensures the container takes full height */
+}

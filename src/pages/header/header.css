@@ -9,7 +9,11 @@
 
 
 
-
+.header{
+    z-index: 10000;
+  top: 0;
+  position: sticky;
+}
 
 
 
@@ -19,8 +23,9 @@
   align-items: left;
 
 
-    position: sticky;
-  top: 0;
+    /* position: sticky; */
+    /* z-index: 10000;
+  top: 0; */
 
  
     align-items: center;
