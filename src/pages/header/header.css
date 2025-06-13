@@ -1,11 +1,4 @@
-/* *{
-
-    color: yellowgreen;
-  
-  background-color: #babec8;
-
-
-} */
+ 
 
 
 
@@ -13,19 +6,20 @@
     z-index: 10000;
   top: 0;
   position: sticky;
+
+    display: flex;
+    justify-content: space-between;  
+  align-items: center;
+ 
 }
 
 
 
 .nav {
   display: flex;
-  justify-content:flex-start;
-  align-items: left;
+   align-items: left;
 
-
-    /* position: sticky; */
-    /* z-index: 10000;
-  top: 0; */
+ 
 
  
     align-items: center;
@@ -68,23 +62,17 @@ width:50px;
   font-size: 16px;
 }
 
-.header {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  padding: 20px;
- 
- 
-}
+
 .buy{
 
 
   
   display: flex;
-  /* justify-content: space-between; */
-  align-items: left;
-justify-content: flex-end;
-margin-top: 30px;
+ 
+
+  align-items: center;
+  margin-right: 0;
+ 
 
 }
 .buy-now {

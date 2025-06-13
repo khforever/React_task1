@@ -5,8 +5,8 @@ return (
     <div className="header">
         
 
-<div className="buy"> <button className="buy-now">Buy Now</button></div>
-      <nav className="nav">
+
+      <div className="nav">
          <img src={logo} alt="logo" className="logo-img" />
         <div className="logo">Blayden *</div>
 
@@ -17,13 +17,13 @@ return (
           <li><a href="#purchase">Purchase</a></li>
         </ul>
        {/* <div className="buy"> <button className="buy-now">Buy Now</button></div> */}
-      </nav>
+      </div>
 
 
 
 
 
-
+<div className="buy"> <button className="buy-now">Buy Now</button></div>
 
 
 
